@@ -1,0 +1,522 @@
+body{
+    background-color:rgb(255, 255, 255); 
+    font-size: 30px;
+    margin: 0px;
+}
+
+
+/***************MENU******************/
+a{
+    font-family: 'Montserra', sans-serif;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 0px;
+    color: black;
+    position: relative;
+}
+
+#un{
+    margin-right: 70px;
+}
+
+#de{
+    margin-left: 100px;
+}
+
+a:hover{
+    color: pink;
+    background-color: rgba(255,255,255,0,3)
+}
+
+.active{
+    font-weight : bold;
+}
+
+
+.centrer{
+    display: flex;
+    justify-content: center;
+    max-width: auto;
+}
+
+#logomenu{
+    position: absolute;
+    width: 130px;
+    justify-content: center;
+    margin-left: -30px;
+    margin-top: -30px;
+    
+}
+
+/********************************ACCUEIL*******************************/
+h1{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 110px;
+    letter-spacing: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    }
+    
+
+a{
+    text-decoration: none;
+    text-align: center
+}
+
+.slogan{
+    font-family: 'Reenie Beanie', cursive;
+    /*font-family: 'Kaushan Script', cursive;*/ 
+    font-size: 80px;
+    color: rgb(46, 45, 45);
+    margin-top: -80px;
+}
+.bandeau{
+    margin-top: 60px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color:rgb(187, 222, 255) ;
+}
+
+#contact{
+    border: none;
+    background-color: pink;
+    border-radius: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 19px;
+    margin-left: 650px; 
+    margin-right: 650px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#lienbouton{
+    color: black;
+    margin: auto;
+}
+
+#contact:hover{
+    background-color: white;
+}
+
+.presentation{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 30px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.text-pink{
+    color: pink;
+    text-transform: bold;
+}
+
+.text-blue{
+    color: aquamarine;
+    font-family: 'Stylish', sans-serif;
+    font-size: 25px;
+}
+
+.frontiere{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.img3f{
+    width: 40%;
+    margin-left: 250px;
+    margin-top: -20px;
+    position: absolute;
+    z-index: 100;
+}
+
+.content3f{
+    width: 60%;
+    margin-left: 65%;
+    margin-top: 90px;
+    font-size: 40px;
+}
+
+.bande{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/********************************PROJETS*******************************/
+
+.title{
+    padding-top: 170px;
+    padding-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.p1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.titros{
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: auto; 
+    font-weight: 400;
+}
+
+.titrosleft{
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-left: -500px;
+    font-weight: 400;
+}
+
+.soustitre1{
+    color: rgb(150, 150, 150);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.soustitreleft{
+    color: rgb(150, 150, 150);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.horloger{
+    width:60%;
+    margin-left: 0px;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 100;
+}
+
+.trait1 { 
+    border-top: 5px solid rgb(169, 203, 255); 
+    width : 600px; 
+    border-bottom: 0px;
+    margin-left: 30%;
+    margin-top: 10px;
+} 
+
+.trait2{
+    border-top: 5px solid rgb(255, 169, 244); 
+    width : 600px; 
+    margin-left: 50%;
+}
+
+.textos1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+
+}
+
+.photoohsl{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    align-content: center;
+    margin-left: 7%;
+    justify-content: baseline;
+    margin-bottom: 30px;
+}
+
+.ohsl{
+    width:85%;
+    position: center;
+    padding: 10px;
+}
+
+
+.vid2{
+    width:60%;
+    left: 75%;
+    top: 0px;
+    position: absolute;
+    z-index: 100;
+}
+
+.vid3{
+    width:60%;
+    left: 75%;
+    top: 55%;
+    position: absolute;
+    z-index: 100;
+}
+
+h4{
+    text-align: right;
+    
+}
+
+.vid4{
+    width:60%;
+    left: 75%;
+    top: 5%;
+    position: absolute;
+    z-index: 100;
+}
+
+.video-content2{
+	width: 70%;
+	margin-left: 0px;
+}
+
+.bandeconserve{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -300px;
+}
+/********************************EQUIPE*******************************/
+
+.present{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	max-width: 960px;
+    margin: 0 auto;
+    margin-left: 80px;
+    position: relative;
+}
+
+
+.vid{
+    width: 60%;
+    margin-left: 0px;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 100;
+}
+.video{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.video-content{
+	width: 70%;
+	margin-left: 70%;
+}
+
+.personne{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+}
+
+
+.perso1{
+    margin-right: 30px;
+}
+
+.perso2{
+    margin-left: 30px;
+}
+
+.positionillu{
+    display: flex;
+    justify-content: center;
+}
+
+.illuperso{
+    width: 85%;
+    height: 85%;
+   align-items: center
+}
+
+.nom{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+/********************************BLOG*******************************/
+.affiche{
+    width:50%;
+    margin-left: 60px;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 100;
+}
+
+.affiche-content{
+    width: 70%;
+	margin-left: 60%;
+}
+
+.soustitre2{
+    color: gray;
+    font-family:  'lemon milk', sans-serif;
+    margin-right: 7%;
+    margin-left: 7%;
+    text-transform: uppercase;
+}
+
+.pblog1{
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.lienconserve{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.lienconserve:hover{
+    background-color: rgb(189, 189, 189);
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+/********************************CONTACT*******************************/
+
+.contactp1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 5%
+}
+
+form{
+    font-family: 'Stylish', sans-serif;
+    color: rgb(13, 145, 206);
+}
+
+input{
+    margin-bottom: 5%;
+    margin-top: -5px;
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+textarea {
+    width: 70%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+textarea:focus {
+    border: 3px solid #555;
+  }
+
+.bouton{
+    border:none;
+    font-family: 'Stylish', sans-serif;
+    background-color: rgb(255, 30, 161);
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.fontfamily{
+    font-family: 'Stylish', sans-serif;
+    color: rgb(88, 88, 88);
+}
+
+.container2{
+	max-width: 960px;
+    margin: 0 auto;
+    margin-left: 80px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.soustitre3{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 0px;
+    text-transform: uppercase;
+}
+
+.reseau{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon{
+    width:8%;
+    margin-left: 20px;
+    margin-top: 5px;
+    
+}
+
+.telmail{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.trait1c { 
+    border-top: 5px solid rgb(169, 203, 255); 
+    width : 400px; 
+    border-bottom: 0px;
+    margin-left: 5%;
+    margin-top: 10px;
+} 
+
+.trait2c {
+    border-top: 5px solid rgb(255, 169, 244); 
+    width : 400px; 
+    margin-left: 20%;
+}
+
+.img3f2{
+    width: 90%;
+    height: 70%;
+    
+}
+
+.map{
+    width: 80%;
+    height: 80%;
+}
+
+.fin{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    align-content: center;
+    margin-left: 7%;
+    justify-content: baseline;
+    margin-bottom: 30px;
+}
+/********************************FOOTER*******************************/
+
